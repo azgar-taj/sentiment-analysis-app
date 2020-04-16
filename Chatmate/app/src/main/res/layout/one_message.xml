@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_margin="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/message_bubble"
+        android:textColor="@android:color/white"
+        android:id="@+id/message_recieved_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="This is message recieved"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_below="@id/message_recieved_text"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="20:88 pm"/>
+
+</RelativeLayout>
