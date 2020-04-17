@@ -64,6 +64,8 @@ public class ConversationContainer extends AppCompatActivity {
         Button send_button = findViewById(R.id.send_button);
         message_list = findViewById(R.id.messages_list);
         messages = new ArrayList<>();
+        adapter = new message_list_adapter(getApplicationContext(),messages);
+        message_list.setAdapter(adapter);
         send_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,8 +83,7 @@ public class ConversationContainer extends AppCompatActivity {
     }
 
     public void updateConversation(){
-        adapter = new message_list_adapter(getApplicationContext(),messages);
-        message_list.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
     public String getFormattedTime(){

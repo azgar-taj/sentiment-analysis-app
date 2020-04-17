@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/message_box"
         android:divider="@null"
+        android:transcriptMode="normal"
         />
 
 </RelativeLayout>
