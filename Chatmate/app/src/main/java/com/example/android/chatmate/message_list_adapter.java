@@ -22,14 +22,23 @@ public class message_list_adapter extends ArrayAdapter {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View message_dialogue = convertView;
-        if(message_dialogue==null){
-            message_dialogue = LayoutInflater.from(getContext()).inflate(R.layout.one_message,parent,false);
-        }
-        TextView message_text = message_dialogue.findViewById(R.id.message_recieved_text);
-        TextView message_time = message_dialogue.findViewById(R.id.message_time);
+
 
         OneMessage message = (OneMessage) getItem(position);
 
+        if(message.getDirection() == Constants.INBOUND){
+            if(message_dialogue==null){
+                message_dialogue = LayoutInflater.from(getContext()).inflate(R.layout.one_message_inbound,parent,false);
+            }
+        }
+        else {
+            if(message_dialogue==null){
+                message_dialogue = LayoutInflater.from(getContext()).inflate(R.layout.one_message,parent,false);
+            }
+        }
+        TextView message_text = message_dialogue.findViewById(R.id.message_recieved_text);
+        TextView message_time = message_dialogue.findViewById(R.id.message_time);
+        
         message_text.setText(message.getMessage());
         message_time.setText(message.getTime());
 

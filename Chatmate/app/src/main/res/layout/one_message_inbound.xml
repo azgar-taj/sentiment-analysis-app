@@ -10,8 +10,8 @@
         android:padding="6dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_alignParentEnd="true"
-        android:background="@drawable/message_bubble"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/message_bubble_in"
         android:textColor="@android:color/white"
         android:id="@+id/message_recieved_text"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:textSize="15sp"/>
     <TextView
         android:layout_below="@id/message_recieved_text"
-        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@id/message_recieved_text"
         android:textColor="@android:color/black"
         android:id="@+id/message_time"
         android:layout_width="wrap_content"
