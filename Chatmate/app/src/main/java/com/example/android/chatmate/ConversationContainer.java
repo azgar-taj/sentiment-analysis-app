@@ -53,6 +53,9 @@ public class ConversationContainer extends AppCompatActivity {
     private ListView message_list;
     private message_list_adapter adapter;
     ArrayList<OneMessage> messages;
+    static String endpoint;
+    static String subscription_key;
+    static String path = "/text/analytics/v3.0-preview/sentiment";
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -102,15 +105,13 @@ public class ConversationContainer extends AppCompatActivity {
     }
 
      */
-    static String endpoint;
-    static String subscription_key;
-    static String path = "/text/analytics/v3.0-preview/sentiment";
+
     public class message_reply extends AsyncTask<Documents,Integer,ArrayList<OneMessage>>{
 
         @Override
         protected ArrayList<OneMessage> doInBackground(Documents... documents) {
-            subscription_key = "3f8b543518e249c5aeccfd84f603e58f";
-            endpoint = "https://tajta150420.cognitiveservices.azure.com";
+            subscription_key = Constants.KEY;
+            endpoint = Constants.ENDPOINT;
             String text = (new Gson().toJson(documents));
             text = text.substring(1,text.length()-1);
             BufferedReader in = null;
