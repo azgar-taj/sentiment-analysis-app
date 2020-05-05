@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "77138020494",
+    "firebase_url": "https://proven-hash-233818.firebaseio.com",
+    "project_id": "proven-hash-233818",
+    "storage_bucket": "proven-hash-233818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77138020494:android:f56f03340a554e1b2d21df",
+        "android_client_info": {
+          "package_name": "com.example.android.chatmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77138020494-fga11v64gidips8dqtjslpk51b5mbv1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCitT_-hULwF39DtgRdO92e8bmq0vRVag4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77138020494-fga11v64gidips8dqtjslpk51b5mbv1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77138020494:android:36c911625894ef7a2d21df",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77138020494-fga11v64gidips8dqtjslpk51b5mbv1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCitT_-hULwF39DtgRdO92e8bmq0vRVag4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77138020494-fga11v64gidips8dqtjslpk51b5mbv1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.azure:azure-ai-textanalytics:1.0.0-beta.3@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azure/azure-ai-textanalytics/1.0.0-beta.3/2acfe30d48f9d4b6b4d8be764436c49910840d88/azure-ai-textanalytics-1.0.0-beta.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azure/azure-ai-textanalytics/1.0.0-beta.3/7df1667accd7a7ce2311512309989addbff5931b/azure-ai-textanalytics-1.0.0-beta.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azure/azure-ai-textanalytics/1.0.0-beta.3/66bd06643375bd05c8778e077d8e09855b38c31b/azure-ai-textanalytics-1.0.0-beta.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
